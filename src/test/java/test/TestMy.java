@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.net.URL;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class TestMy extends SetUpCapabilities{
@@ -18,7 +19,7 @@ public class TestMy extends SetUpCapabilities{
 
     @BeforeMethod
     public void setup() throws Exception {
-        driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), getCapabilities());
+        driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities());
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         WebDriverRunner.setWebDriver(driver);
     }
@@ -29,12 +30,22 @@ public class TestMy extends SetUpCapabilities{
     }
 
     @Test
-    public void testFirst() {
+    public void testTutorial() {
+        capabilities().setCapability("noReset", false);
         tutorialHelper.clickStartBetInfoButton();
         tutorialHelper.assertTutorialTeamPage();
         tutorialHelper.assertTutrialPlayersPage();
         tutorialHelper.assertTutorialGameFieldPage();
         tutorialHelper.clickOnGameField();
+        loginView.assertOpenedLoginView();
+    }
+
+    @Test
+    public void testSignup() {
+//        capabilities().setCapability("noReset", true);
+        tutorialHelper.clickStartBetInfoButton();
+        driver.closeApp();
+        driver.launchApp();
         loginView.assertOpenedLoginView();
     }
 }

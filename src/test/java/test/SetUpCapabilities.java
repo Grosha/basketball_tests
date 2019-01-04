@@ -9,7 +9,7 @@ public class SetUpCapabilities {
     private static String packageDK = "com.vivalasport.hoopit";
 
 
-    public DesiredCapabilities getCapabilities() {
+    public DesiredCapabilities capabilities() {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName", "Android Emulator");
         capabilities.setCapability("platformVersion", "8.1");
@@ -19,7 +19,7 @@ public class SetUpCapabilities {
         capabilities.setCapability("appWaitPackage", packageDK);
         capabilities.setCapability("appActivity", mainActivity);
         capabilities.setCapability("automationName", "UiAutomator2");
-//        capabilities.setCapability("noReset", true);
+        capabilities.setCapability("noReset", true);
         return capabilities;
     }
 }
