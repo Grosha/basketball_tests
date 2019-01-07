@@ -1,13 +1,11 @@
 package test;
 
+import helper.Strings;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-public class SetUpCapabilities {
-//    private String packageDK = "com.highlyrecommendedapps.droidkeeper";
-//    private String mainActivity = ".ui.MainActivity";
-    private static String mainActivity = "com.athena.app.ui.splash.SplashActivity";
-    private static String packageDK = "com.vivalasport.hoopit";
-
+public class SetUpCapabilities implements Strings {
+//    private String PACKAGE_HOOPIT = "com.highlyrecommendedapps.droidkeeper";
+//    private String MAIN_ACTIVITY = ".ui.MainActivity"
 
     public DesiredCapabilities capabilities() {
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -15,9 +13,9 @@ public class SetUpCapabilities {
         capabilities.setCapability("platformVersion", "8.1");
 
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("appPackage", packageDK);
-        capabilities.setCapability("appWaitPackage", packageDK);
-        capabilities.setCapability("appActivity", mainActivity);
+        capabilities.setCapability("appPackage", PACKAGE_HOOPIT);
+        capabilities.setCapability("appWaitPackage", PACKAGE_HOOPIT);
+        capabilities.setCapability("appActivity", MAIN_ACTIVITY);
         capabilities.setCapability("automationName", "UiAutomator2");
         capabilities.setCapability("noReset", true);
         return capabilities;

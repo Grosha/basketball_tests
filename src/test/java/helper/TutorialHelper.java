@@ -1,22 +1,13 @@
 package helper;
 
 import com.codeborne.selenide.ElementsCollection;
-import com.codeborne.selenide.SelenideElement;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.testng.asserts.SoftAssert;
-
-import java.util.List;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
-import static org.testng.AssertJUnit.assertEquals;
-import static org.testng.AssertJUnit.assertTrue;
 
-public class TutorialHelper {
+public class TutorialHelper  extends BaseHelper {
 
     private By startBetInfoButton = By.id("com.vivalasport.hoopit:id/start_bet_intro");
     private By teamViewLocator = By.id("com.vivalasport.hoopit:id/select_team_container");
