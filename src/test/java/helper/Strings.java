@@ -5,7 +5,11 @@ public interface Strings {
     String PACKAGE_HOOPIT = "com.vivalasport.hoopit";
     String APPIUM_HOST = "http://localhost:4723/wd/hub";
 
-    String PASSWORD_ERROR = "Your getPassword should be 1+ passwordCharacters long";
+    //sign up
+    String PASSWORD_ERROR = "Your password should be 1+ characters long";
     String EMAIL_ERROR = "Your mail has incorrect format";
-    String USER_NAME_ERROR = "Your screen name should be 1+ passwordCharacters long";
+    String USER_NAME_ERROR = "Your screen name should be 1+ characters long";
+
+    //popup
+    String INVITE_FRIEND_TEXT_POPUP = "Invite your friends so you can show them who knows ball";
 }

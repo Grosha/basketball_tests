@@ -3,7 +3,13 @@ package test;
 import com.codeborne.selenide.WebDriverRunner;
 import helper.LoginView;
 import helper.TutorialHelper;
+import helper.popup.CongratsPopup;
+import helper.popup.InviteFriendsPopup;
+import helper.tabs.games.*;
+import helper.tabs.home.HomeTabHelper;
 import io.appium.java_client.android.AndroidDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -12,10 +18,21 @@ import org.testng.annotations.Test;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
 public class TestMy extends SetUpCapabilities{
     private AndroidDriver driver;
     private TutorialHelper tutorialHelper = new TutorialHelper();
     private LoginView loginHelper = new LoginView();
+    private InviteFriendsPopup inviteFriendsPopup = new InviteFriendsPopup();
+    private CongratsPopup congratsPopup = new CongratsPopup();
+    private GamesTabHelper gamesTab = new GamesTabHelper();
+    private HomeTabHelper homeTab = new HomeTabHelper();
+    private LiveGameBlockHelper liveGameBlock = new LiveGameBlockHelper();
+    private LiveGameHelper liveGameHelper = new LiveGameHelper();
+    private LiveBetTeamHelper betTeamHelper = new LiveBetTeamHelper();
+    private LiveBetPlayerHelper betPlayerHelper = new LiveBetPlayerHelper();
 
     @BeforeMethod
     public void setup() throws Exception {
@@ -76,7 +93,78 @@ public class TestMy extends SetUpCapabilities{
         loginHelper.assertErrorMessage(userNameErrorMessage, emailErrorMessage, passwordErrorMessage);
     }
 
+    @Test
     public void testLoginNewUser() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+
         loginHelper.loginAs("qa test", loginHelper.getNewEmail(), loginHelper.getPassword());
+        wait.until(ExpectedConditions.visibilityOfElementLocated(inviteFriendsPopup.profileImage()));
+        inviteFriendsPopup.assertInviteFriendsPopupOpend();
+        inviteFriendsPopup.closePopup();
+        congratsPopup.assertPresenceElements();
+        congratsPopup.clickStartPredictingButton();
+    }
+
+    @Test
+    public void testLeaguesName() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(homeTab.getHomeTab()));
+        gamesTab.openGamesTab();
+        gamesTab.assertLeaguesTabName();
+    }
+
+    @Test
+    public void testSortingNBALeague() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(homeTab.getHomeTab()));
+        gamesTab.openGamesTab();
+        gamesTab.selectNBALeague();
+        liveGameBlock.assertOpenedNBALeague();
+    }
+
+    @Test
+    public void testSortingNCAALeague() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(homeTab.getHomeTab()));
+        gamesTab.openGamesTab();
+        gamesTab.selectNCAALeague();
+        liveGameBlock.assertOpenedNCAALeague();
+    }
+
+    @Test
+    private void testLiveGameBlock() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(homeTab.getHomeTab()));
+        gamesTab.openGamesTab();
+        gamesTab.selectNBALeague();
+        liveGameBlock.assertLiveGameElementsPresence();
+    }
+
+    @Test
+    public void assertScoreInLiveBlockAndLiveGame() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(homeTab.getHomeTab()));
+        gamesTab.openGamesTab();
+        gamesTab.selectNBALeague();
+        String score = liveGameBlock.getScoreInBlockLiveGame();
+        liveGameBlock.enterToTheLiveGame();
+        assertEquals(score , liveGameHelper.getScoreInLiveGame());
+    }
+
+    @Test
+    public void testCreateLiveTeamBet() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(homeTab.getHomeTab()));
+        gamesTab.openGamesTab();
+        gamesTab.selectNBALeague();
+        String indoorTeamName = liveGameBlock.getIndoorTeamName();
+        liveGameBlock.enterToTheLiveGame();
+        int numberPicks = liveGameHelper.geNumberPicks();
+        String gameTime = liveGameHelper.getGameTime();
+        liveGameHelper.clickMakePickButton();
+        betTeamHelper.doLeftTeamBet();
+        betPlayerHelper.finishBet();
+        driver.navigate().back();
+        liveGameHelper.assertPresencePickInHistory(indoorTeamName.toUpperCase(), numberPicks, gameTime);
     }
 }

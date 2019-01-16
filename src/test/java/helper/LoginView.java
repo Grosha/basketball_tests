@@ -1,9 +1,12 @@
 package helper;
 
+import com.codeborne.selenide.ElementsCollection;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.asserts.SoftAssert;
 
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.$$;
 import static org.testng.Assert.assertTrue;
 
 public class LoginView extends BaseHelper {
@@ -15,9 +18,9 @@ public class LoginView extends BaseHelper {
     private By locatorScreenNameField = By.id("com.vivalasport.hoopit:id/screen_name");
     private By locatorEmailField = By.id("com.vivalasport.hoopit:id/et_email");
     private By locatorPasswordField = By.id("com.vivalasport.hoopit:id/et_password");
-    private By locatorPasswordErrorText = By.id("com.vivalasport.hoopit:id/textinput_error");
-    private By locatorEmailErrorText = By.id("com.vivalasport.hoopit:id/textinput_error");
-    private By locatorScreenNameErrorText = By.id("com.vivalasport.hoopit:id/textinput_error");
+    private By locatorScreenNameErrorText = By.xpath("//android.widget.LinearLayout[@resource-id='com.vivalasport.hoopit:id/input_layout_screen_name']//android.widget.TextView[@resource-id='com.vivalasport.hoopit:id/textinput_error']");
+    private By locatorEmailErrorText = By.xpath("//android.widget.LinearLayout[@resource-id='com.vivalasport.hoopit:id/input_layout_email']//android.widget.TextView[@resource-id='com.vivalasport.hoopit:id/textinput_error']");
+    private By locatorPasswordErrorText = By.xpath("//android.widget.LinearLayout[@resource-id='com.vivalasport.hoopit:id/input_layout_password']//android.widget.TextView[@resource-id='com.vivalasport.hoopit:id/textinput_error']");
 
     public LoginView assertOpenedLoginView() {
         assertTrue($(loginButtonsViewLocator).isDisplayed(), "Login view wasn't shown");
@@ -43,13 +46,13 @@ public class LoginView extends BaseHelper {
     public void assertErrorMessage(String user_name_error_message, String email_error_message, String password_error_message) {
         SoftAssert asert = new SoftAssert();
         if (user_name_error_message != null) {
-            asert.assertEquals($(locatorScreenNameErrorText).text(), user_name_error_message, "Incorrect error message for user name");
+            asert.assertEquals($(locatorScreenNameErrorText).getText(), user_name_error_message, "Incorrect error message for user name");
         }
         if (email_error_message != null) {
-            asert.assertEquals($(locatorEmailField).text(), email_error_message, "Incorrect error message for email");
+            asert.assertEquals($(locatorEmailErrorText).getText(), email_error_message, "Incorrect error message for email");
         }
         if (password_error_message != null) {
-            asert.assertEquals($(locatorPasswordField).text(), password_error_message, "Incorrect error message for getPassword");
+            asert.assertEquals($(locatorPasswordErrorText).getText(), password_error_message, "Incorrect error message for getPassword");
         }
         asert.assertAll();
     }

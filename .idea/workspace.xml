@@ -2,39 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd5dd633-405c-4c03-8928-ab28c61c513a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/basketball_tests.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1546001360661.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1546001360661.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1546001375513.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1546001375513.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1546001384929.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1546001384929.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1546001428075.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1546001428075.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1546001532282.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1546001532282.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1546002822622.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1546002822622.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1546532393250.0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/1546532393250.0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/test/SetUpCapabilities.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/classes/test/TestMy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helper/LoginView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/SetUpCapabilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestMy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/helper/tabs/games/GamesTabHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveBetPlayerHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveBetTeamHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveGameBlockHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveGameHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/helper/tabs/home/HomeTabHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/helper/ToolbarHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/helper/ToolbarHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/helper/BaseHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/helper/BaseHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/helper/LoginView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/helper/LoginView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/helper/TutorialHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/helper/TutorialHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/test/SetUpAppium.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helper/ToolbarHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/ToolbarHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/helper/TutorialHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/TutorialHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/SetUpAppium.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/test/SetUpCapabilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/test/SetUpCapabilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/test/TestMy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/test/TestMy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helper/LoginView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/LoginView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helper/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helper/popup/BasePopup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/popup/BasePopup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helper/popup/CongratsPopup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/popup/CongratsPopup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helper/popup/InviteFriendsPopup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helper/popup/InviteFriendsPopup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TestMy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TestMy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -63,26 +48,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="19" />
           <entry key="gradle" value="4" />
-          <entry key="java" value="1173" />
+          <entry key="java" value="3822" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="1173" />
+          <entry key="JAVA" value="3822" />
+          <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="8" />
+          <entry key="java" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="39" />
         </counts>
       </usages-collector>
     </session>
@@ -93,65 +80,73 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/test/TestMy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+              <caret line="167" column="37" lean-forward="true" selection-start-line="167" selection-start-column="37" selection-end-line="167" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#1645#1646#0" expanded="true" />
+                <element signature="e#1709#1710#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/helper/TutorialHelper.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/helper/tabs/games/GamesTabHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="74" column="36" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+            <state relative-caret-position="290">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1557#1558#0" expanded="true" />
-                <element signature="e#1602#1603#0" expanded="true" />
-                <element signature="e#3807#3808#0" expanded="true" />
-                <element signature="e#3850#3851#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveGameBlockHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1989#1990#0" expanded="true" />
+                <element signature="e#2035#2036#0" expanded="true" />
+                <element signature="e#2175#2176#0" expanded="true" />
+                <element signature="e#2219#2220#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/helper/LoginView.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveGameHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="330">
+              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
+                <element signature="e#1716#1717#0" expanded="true" />
+                <element signature="e#1764#1765#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveBetPlayerHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/helper/ToolbarHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/SetUpCapabilities.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -473,10 +468,25 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/helper/StartHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/helper/ToolbarHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/SetUpCapabilities.java" />
         <option value="$PROJECT_DIR$/src/test/java/helper/TutorialHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/SetUpCapabilities.java" />
         <option value="$PROJECT_DIR$/src/test/java/helper/LoginView.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/Strings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/popup/InviteFriendsPopup.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/popup/CongratsPopup.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/popup/BasePopup.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/TabsHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/tabs/TabsHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/tabs/GamesTab.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveGameBlock.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/tabs/home/HomeTab.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/tabs/games/GamesTab.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveBetTeam.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveBetTeamHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveBetPlayerHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveGameBlockHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/TestMy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveGameHelper.java" />
       </list>
     </option>
   </component>
@@ -533,6 +543,35 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+              <item name="tabs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basketball_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basketball_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+              <item name="tabs" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basketball_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basketball_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+              <item name="tabs" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basketball_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basketball_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -547,10 +586,128 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546607325457" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547148817664" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/helper/BaseHelper.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/helper/LoginView.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/helper/TutorialHelper.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/test/SetUpCapabilities.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/test/TestMy.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/helper/Strings.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/helper/popup/BasePopup.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/helper/popup/CongratsPopup.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/helper/popup/InviteFriendsPopup.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -564,8 +721,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMy.testFirst">
-    <configuration name="TestMy.testFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestMy.testCreateLiveTeamBet">
+    <configuration name="TestMy.assertScoreInLiveBlockAndLiveGame" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hoopit.hoopit.test" />
       <extension name="coverage">
         <pattern>
@@ -575,29 +732,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TestMy" />
-      <option name="METHOD_NAME" value="testFirst" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMy" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hoopit.hoopit.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TestMy" />
+      <option name="METHOD_NAME" value="assertScoreInLiveBlockAndLiveGame" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMy.testFirst" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMy.testCreateLiveTeamBet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hoopit.hoopit.test" />
       <extension name="coverage">
         <pattern>
@@ -607,7 +750,61 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TestMy" />
-      <option name="METHOD_NAME" value="testFirst" />
+      <option name="METHOD_NAME" value="testCreateLiveTeamBet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMy.testLiveGameBlock" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hoopit.hoopit.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestMy" />
+      <option name="METHOD_NAME" value="testLiveGameBlock" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMy.testSortingNBALeague" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hoopit.hoopit.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestMy" />
+      <option name="METHOD_NAME" value="testSortingNBALeague" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMy.testSortingNCAALeague" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hoopit.hoopit.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestMy" />
+      <option name="METHOD_NAME" value="testSortingNCAALeague" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -616,15 +813,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestMy.testFirst" />
-      <item itemvalue="TestNG.TestMy.testFirst" />
-      <item itemvalue="TestNG.TestMy" />
+      <item itemvalue="TestNG.TestMy.testSortingNBALeague" />
+      <item itemvalue="TestNG.TestMy.testSortingNCAALeague" />
+      <item itemvalue="TestNG.TestMy.testLiveGameBlock" />
+      <item itemvalue="TestNG.TestMy.assertScoreInLiveBlockAndLiveGame" />
+      <item itemvalue="TestNG.TestMy.testCreateLiveTeamBet" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestMy.testFirst" />
-        <item itemvalue="TestNG.TestMy" />
-        <item itemvalue="JUnit.TestMy.testFirst" />
+        <item itemvalue="TestNG.TestMy.testCreateLiveTeamBet" />
+        <item itemvalue="TestNG.TestMy.assertScoreInLiveBlockAndLiveGame" />
+        <item itemvalue="TestNG.TestMy.testLiveGameBlock" />
+        <item itemvalue="TestNG.TestMy.testSortingNCAALeague" />
+        <item itemvalue="TestNG.TestMy.testSortingNBALeague" />
       </list>
     </recent_temporary>
   </component>
@@ -645,35 +846,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMy - 2019.01.04 at 14h 40m 58s.xml">
-      <configuration name="TestMy" configurationId="TestNG" />
+    <history-entry file="TestMy_testCreateLiveTeamBet - 2019.01.10 at 20h 58m 52s.xml">
+      <configuration name="TestMy.testCreateLiveTeamBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMy - 2019.01.04 at 14h 42m 28s.xml">
-      <configuration name="TestMy" configurationId="TestNG" />
+    <history-entry file="TestMy_testCreateLiveTeamBet - 2019.01.10 at 21h 16m 01s.xml">
+      <configuration name="TestMy.testCreateLiveTeamBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMy - 2019.01.04 at 14h 44m 57s.xml">
-      <configuration name="TestMy" configurationId="TestNG" />
+    <history-entry file="TestMy_testCreateLiveTeamBet - 2019.01.10 at 21h 18m 59s.xml">
+      <configuration name="TestMy.testCreateLiveTeamBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMy - 2019.01.04 at 14h 45m 54s.xml">
-      <configuration name="TestMy" configurationId="TestNG" />
+    <history-entry file="TestMy_testCreateLiveTeamBet - 2019.01.10 at 21h 21m 55s.xml">
+      <configuration name="TestMy.testCreateLiveTeamBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMy - 2019.01.04 at 14h 47m 11s.xml">
-      <configuration name="TestMy" configurationId="TestNG" />
+    <history-entry file="TestMy_testCreateLiveTeamBet - 2019.01.10 at 21h 23m 08s.xml">
+      <configuration name="TestMy.testCreateLiveTeamBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMy - 2019.01.04 at 14h 48m 13s.xml">
-      <configuration name="TestMy" configurationId="TestNG" />
+    <history-entry file="TestMy_testCreateLiveTeamBet - 2019.01.10 at 21h 24m 19s.xml">
+      <configuration name="TestMy.testCreateLiveTeamBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMy_testFirst - 2019.01.04 at 14h 50m 19s.xml">
-      <configuration name="TestMy.testFirst" configurationId="TestNG" />
+    <history-entry file="TestMy_testCreateLiveTeamBet - 2019.01.10 at 21h 30m 56s.xml">
+      <configuration name="TestMy.testCreateLiveTeamBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMy_testFirst - 2019.01.04 at 14h 51m 05s.xml">
-      <configuration name="TestMy.testFirst" configurationId="TestNG" />
+    <history-entry file="TestMy_testCreateLiveTeamBet - 2019.01.10 at 21h 32m 00s.xml">
+      <configuration name="TestMy.testCreateLiveTeamBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMy_testFirst - 2019.01.04 at 14h 52m 34s.xml">
-      <configuration name="TestMy.testFirst" configurationId="TestNG" />
+    <history-entry file="TestMy_testCreateLiveTeamBet - 2019.01.10 at 21h 33m 02s.xml">
+      <configuration name="TestMy.testCreateLiveTeamBet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMy_testFirst - 2019.01.04 at 14h 53m 20s.xml">
-      <configuration name="TestMy.testFirst" configurationId="TestNG" />
+    <history-entry file="TestMy_testCreateLiveTeamBet - 2019.01.10 at 21h 34m 26s.xml">
+      <configuration name="TestMy.testCreateLiveTeamBet" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -724,50 +925,68 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/helper/popup/BasePopup.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/helper/popup/CongratsPopup.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>texts</expression-string>
+        <expression-string>indoorTeamName.toUpperCase()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>System.out.print(button_next.getText());</expression-string>
+        <expression-string>indoorTeamName.toLowerCase()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.findElement(By.id(&quot;com.vivalasport.hoopit:id/start_bet_intro&quot;))</expression-string>
+        <expression-string>$(indoorTeamScore).getText()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.findElement(By.id(&quot;com.vivalasport.hoopit:id/start_bet_intro&quot;)).click()</expression-string>
+        <expression-string>liveGameHelper.getScoreInLiveGame()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.findElement(By.id(&quot;com.vivalasport.hoopit:id/start_bet_intro&quot;)).click();</expression-string>
+        <expression-string>liveGameBlock.enterToTheLiveGame()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.findElement(By.id(&quot;com.vivalasport.hoopit:id/start_bet_info&quot;))</expression-string>
+        <expression-string>$(locatorScreenNameErrorText).getText()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.findElement(By.id(&quot;start_bet_info&quot;))</expression-string>
+        <expression-string>$$(By.id(&quot;com.vivalasport.hoopit:id/textinput_error&quot;)).get(0).getText()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.findElement(By.id(&quot;id/start_bet_info&quot;))</expression-string>
+        <expression-string>$$(By.id(&quot;com.vivalasport.hoopit:id/textinput_error&quot;)).get(0)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tutorialHelper.startBetInfoButton()</expression-string>
+        <expression-string>$$(By.id(&quot;com.vivalasport.hoopit:id/textinput_error&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -813,34 +1032,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0-beta1/d5b414d1f7480fe069e01ccadce1756f6a56a114/testng-7.0.0-beta1-sources.jar!/org/testng/asserts/Assertion.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.appium/java-client/6.1.0/4e110c37cb22ea7fcc0916ca0a2288a5308e9fd3/java-client-6.1.0-sources.jar!/io/appium/java_client/ExecutesMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+        <state relative-caret-position="330">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/helper/ToolbarHelper.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.appium/java-client/6.1.0/4e110c37cb22ea7fcc0916ca0a2288a5308e9fd3/java-client-6.1.0-sources.jar!/io/appium/java_client/MobileCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="-91">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/SetUpCapabilities.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/time/Duration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="-33">
+          <caret line="179" column="27" selection-start-line="179" selection-start-column="27" selection-end-line="179" selection-end-column="27" />
+          <folding>
+            <element signature="e#8032#8033#0" expanded="true" />
+            <element signature="e#8107#8108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.appium/java-client/6.1.0/4e110c37cb22ea7fcc0916ca0a2288a5308e9fd3/java-client-6.1.0-sources.jar!/io/appium/java_client/InteractsWithApps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
+          <folding>
+            <element signature="e#2143#2144#0" expanded="true" />
+            <element signature="e#2178#2179#0" expanded="true" />
+            <element signature="e#5423#5424#0" expanded="true" />
+            <element signature="e#5457#5458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="565" selection-start-line="565" selection-end-line="565" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0-beta1/d5b414d1f7480fe069e01ccadce1756f6a56a114/testng-7.0.0-beta1-sources.jar!/org/testng/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+          <folding>
+            <element signature="e#1689#1690#0" expanded="true" />
+            <element signature="e#1726#1727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helper/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helper/popup/InviteFriendsPopup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helper/LoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helper/popup/CongratsPopup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/helper/TutorialHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="74" column="36" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+        <state relative-caret-position="154">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1557#1558#0" expanded="true" />
             <element signature="e#1602#1603#0" expanded="true" />
             <element signature="e#3807#3808#0" expanded="true" />
             <element signature="e#3850#3851#0" expanded="true" />
@@ -848,22 +1137,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestMy.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/helper/popup/BasePopup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="135">
+          <caret line="9" column="98" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/SetUpCapabilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/helper/LoginView.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0-beta1/d5b414d1f7480fe069e01ccadce1756f6a56a114/testng-7.0.0-beta1-sources.jar!/org/testng/asserts/Assertion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="229">
+          <caret line="90" column="14" selection-start-line="90" selection-start-column="14" selection-end-line="90" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helper/ToolbarHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helper/tabs/TabsHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helper/tabs/home/HomeTabHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="38" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveBetTeamHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveGameBlockHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+            <element signature="e#2035#2036#0" expanded="true" />
+            <element signature="e#2175#2176#0" expanded="true" />
+            <element signature="e#2219#2220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveBetPlayerHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helper/tabs/games/GamesTabHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestMy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="167" column="37" lean-forward="true" selection-start-line="167" selection-start-column="37" selection-end-line="167" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#1645#1646#0" expanded="true" />
+            <element signature="e#1709#1710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helper/tabs/games/LiveGameHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#1764#1765#0" expanded="true" />
           </folding>
         </state>
       </provider>
