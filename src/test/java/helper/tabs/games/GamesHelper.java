@@ -1,27 +1,32 @@
 package helper.tabs.games;
 
 import com.codeborne.selenide.ElementsCollection;
+import helper.BaseHelper;
 import org.openqa.selenium.By;
 import org.testng.asserts.SoftAssert;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
-public class GamesTabHelper {
+public class GamesTabHelper  extends BaseHelper {
     private By gamesTabLocator = By.id("com.vivalasport.hoopit:id/nav_games");
     private By gameListLocator = By.id("com.vivalasport.hoopit:id/game_list");
     private By leagueListLocator = By.xpath("//android.support.v7.widget.RecyclerView[@resource-id='com.vivalasport.hoopit:id/league_list']//android.widget.TextView");
 
-    public void openGamesTab() {
+    public GamesTabHelper openGamesTab() {
+        waiter();
         $(gamesTabLocator).click();
+        return this;
     }
 
-    public void selectNBALeague() {
+    public GamesTabHelper selectNBALeague() {
         $$(leagueListLocator).get(1).click();
+        return this;
     }
 
-    public void selectNCAALeague() {
+    public GamesTabHelper selectNCAALeague() {
         $$(leagueListLocator).get(2).click();
+        return this;
     }
 
     public void assertLeaguesTabName() {
