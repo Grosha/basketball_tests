@@ -74,10 +74,11 @@ public class TestSignUp extends BaseTest {
 
     @Test
     public void testLoginNewUser() {
-        WebDriverWait wait = new WebDriverWait(driver, 5);
+//        WebDriverWait wait = new WebDriverWait(driver, 5);
 
         loginHelper.loginAs("qa test", loginHelper.getNewEmail(), loginHelper.getPassword());
-        wait.until(ExpectedConditions.visibilityOfElementLocated(inviteFriendsPopup.profileImage()));
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(inviteFriendsPopup.profileImage()));
+        waitForElementLocated(driver, inviteFriendsPopup.profileImage(), 5);
         inviteFriendsPopup.assertInviteFriendsPopupOpend();
         inviteFriendsPopup.closePopup();
         congratsPopup.assertPresenceElements();

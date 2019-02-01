@@ -27,8 +27,9 @@ public class LiveGameHelper {
         return Integer.parseInt($(numberPicksLocator).getText());
     }
 
-    public void clickMakePickButton() {
+    public LiveGameHelper clickMakePickButton() {
         $(makePickButtonLocator).click();
+        return this;
     }
 
     public String getGameTime() {

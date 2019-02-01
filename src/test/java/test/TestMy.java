@@ -27,7 +27,7 @@ public class TestMy extends SetUpCapabilities{
     private LoginView loginHelper = new LoginView();
     private InviteFriendsPopup inviteFriendsPopup = new InviteFriendsPopup();
     private CongratsPopup congratsPopup = new CongratsPopup();
-    private GamesTabHelper gamesTab = new GamesTabHelper();
+    private GamesHelper gamesTab = new GamesHelper();
     private HomeTabHelper homeTab = new HomeTabHelper();
     private LiveGameBlockHelper liveGameBlock = new LiveGameBlockHelper();
     private LiveGameHelper liveGameHelper = new LiveGameHelper();
@@ -109,7 +109,7 @@ public class TestMy extends SetUpCapabilities{
     public void testLeaguesName() {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(homeTab.getHomeTab()));
-        gamesTab.openGamesTab();
+//        gamesTab.openGamesTab();
         gamesTab.assertLeaguesTabName();
     }
 
@@ -117,7 +117,7 @@ public class TestMy extends SetUpCapabilities{
     public void testSortingNBALeague() {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(homeTab.getHomeTab()));
-        gamesTab.openGamesTab();
+//        gamesTab.openGamesTab();
         gamesTab.selectNBALeague();
         liveGameBlock.assertOpenedNBALeague();
     }
@@ -126,7 +126,7 @@ public class TestMy extends SetUpCapabilities{
     public void testSortingNCAALeague() {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(homeTab.getHomeTab()));
-        gamesTab.openGamesTab();
+//        gamesTab.openGamesTab();
         gamesTab.selectNCAALeague();
         liveGameBlock.assertOpenedNCAALeague();
     }
@@ -135,7 +135,7 @@ public class TestMy extends SetUpCapabilities{
     private void testLiveGameBlock() {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(homeTab.getHomeTab()));
-        gamesTab.openGamesTab();
+//        gamesTab.openGamesTab();
         gamesTab.selectNBALeague();
         liveGameBlock.assertLiveGameElementsPresence();
     }
@@ -144,7 +144,7 @@ public class TestMy extends SetUpCapabilities{
     public void assertScoreInLiveBlockAndLiveGame() {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(homeTab.getHomeTab()));
-        gamesTab.openGamesTab();
+//        gamesTab.openGamesTab();
         gamesTab.selectNBALeague();
         String score = liveGameBlock.getScoreInBlockLiveGame();
         liveGameBlock.enterToTheLiveGame();
@@ -155,7 +155,7 @@ public class TestMy extends SetUpCapabilities{
     public void testCreateLiveTeamBet() {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(homeTab.getHomeTab()));
-        gamesTab.openGamesTab();
+//        gamesTab.openGamesTab();
         gamesTab.selectNBALeague();
         String indoorTeamName = liveGameBlock.getIndoorTeamName();
         liveGameBlock.enterToTheLiveGame();

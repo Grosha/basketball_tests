@@ -10,8 +10,9 @@ public class LiveBetTeamHelper {
     private By rightTeamLocator = By.id("com.vivalasport.hoopit:id/right_team");
     private By rightTeamNameLocator = By.id("com.vivalasport.hoopit:id/tv_team_right_name");
 
-    public void doLeftTeamBet() {
+    public LiveBetTeamHelper doLeftTeamBet() {
         $(leftTeamLocator).click();
+        return this;
     }
 
 }

@@ -1,9 +1,11 @@
 package helper.tabs.games;
 
+import helper.Helpers;
 import org.openqa.selenium.By;
 import org.testng.asserts.SoftAssert;
 
 import static com.codeborne.selenide.Selenide.$;
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 public class LiveGameBlockHelper {
@@ -35,8 +37,9 @@ public class LiveGameBlockHelper {
         assertTrue($(quaterNumberLocator).getText().contains("H"), "There is presenting incorrect game in NCAA league");
     }
 
-    public void enterToTheLiveGame() {
+    public LiveGameBlockHelper enterToTheLiveGame() {
         $(leftTeamIconLocator).click();
+        return this;
     }
 
     public String getScoreInBlockLiveGame() {
@@ -45,5 +48,11 @@ public class LiveGameBlockHelper {
 
     public String getIndoorTeamName() {
         return $(leftTeamNameLocator).getText();
+    }
+
+    public void assertScoreInLiveBlockAndLiveGame() {
+        String score = getScoreInBlockLiveGame();
+        enterToTheLiveGame();
+        assertEquals(score , Helpers.liveGame().getScoreInLiveGame());
     }
 }

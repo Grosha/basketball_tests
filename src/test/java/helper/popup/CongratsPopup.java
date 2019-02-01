@@ -23,8 +23,9 @@ public class CongratsPopup extends BasePopup {
         asert.assertAll();
     }
 
-    public void clickStartPredictingButton() {
+    public CongratsPopup clickStartPredictingButton() {
         $$(textsLocator).get(3).click();
         assertPopupViewClosed();
+        return this;
     }
 }

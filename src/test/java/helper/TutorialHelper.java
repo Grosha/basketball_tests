@@ -23,8 +23,9 @@ public class TutorialHelper  extends BaseHelper {
     private By teamPlayersLocator = By.xpath("//android.widget.LinearLayout//android.view.View");
     private By getAllTexts = By.xpath("//android.widget.TextView");
 
-    public void clickStartBetInfoButton() {
+    public TutorialHelper clickStartBetInfoButton() {
         $(startBetInfoButton).click();
+        return this;
     }
 
     public void assertTutorialTeamPage() {
@@ -50,9 +51,10 @@ public class TutorialHelper  extends BaseHelper {
         players.get(0).click();
     }
 
-    private void clickNextButton() {
+    private TutorialHelper clickNextButton() {
         ElementsCollection texts = $$(getAllTexts);
         texts.get(texts.size()-1).click();
+        return this;
     }
 
     public void assertTutorialGameFieldPage() {

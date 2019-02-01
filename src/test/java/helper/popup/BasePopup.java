@@ -10,8 +10,9 @@ public class BasePopup implements Strings {
     private By closePopupLocator = By.xpath("//android.widget.FrameLayout/android.widget.ImageView");
     private By popupViewLocator = By.id("com.vivalasport.hoopit:id/custom");
 
-    public void closePopup() {
+    public BasePopup closePopup() {
         $(closePopupLocator).click();
+        return this;
     }
 
     public void assertPopupViewClosed() {

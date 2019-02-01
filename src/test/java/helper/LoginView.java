@@ -35,12 +35,13 @@ public class LoginView extends BaseHelper {
         asert.assertAll();
     }
 
-    public void loginAs(String user_name, String email, String password) {
+    public LoginView loginAs(String user_name, String email, String password) {
         $(locatorSignUpButton).click();
         $(locatorScreenNameField).val(user_name);
         $(locatorEmailField).val(email);
         $(locatorPasswordField).val(password);
         $(locatorEmailSignUpButton).click();
+        return this;
     }
 
     public void assertErrorMessage(String user_name_error_message, String email_error_message, String password_error_message) {

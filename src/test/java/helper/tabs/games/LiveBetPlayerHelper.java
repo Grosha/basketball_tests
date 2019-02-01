@@ -7,7 +7,8 @@ import static com.codeborne.selenide.Selenide.$;
 public class LiveBetPlayerHelper {
     private By finishBetLocator = By.id("com.vivalasport.hoopit:id/next_pick");
 
-    public void finishBet() {
+    public LiveBetPlayerHelper finishBet() {
         $(finishBetLocator).click();
+        return this;
     }
 }

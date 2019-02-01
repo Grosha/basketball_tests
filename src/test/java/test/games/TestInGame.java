@@ -1,6 +1,8 @@
 package test.games;
 
 import com.codeborne.selenide.WebDriverRunner;
+import helper.DrawerHelper;
+import helper.Helpers;
 import helper.ToolbarHelper;
 import helper.tabs.games.*;
 import helper.tabs.home.HomeTabHelper;
@@ -21,13 +23,14 @@ import static org.testng.Assert.assertTrue;
 public class TestInGame extends BaseTest {
 
     private AndroidDriver driver;
-    private GamesTabHelper gamesTab = new GamesTabHelper();
+    private GamesHelper gamesTab = new GamesHelper();
     private HomeTabHelper homeTab = new HomeTabHelper();
     private LiveGameBlockHelper liveGameBlock = new LiveGameBlockHelper();
     private LiveGameHelper liveGameHelper = new LiveGameHelper();
     private LiveBetTeamHelper betTeamHelper = new LiveBetTeamHelper();
     private LiveBetPlayerHelper betPlayerHelper = new LiveBetPlayerHelper();
     private ToolbarHelper toolbarHelper = new ToolbarHelper();
+    private DrawerHelper drawerHelper = new DrawerHelper();
 
     @BeforeMethod
     public void setup() throws Exception {
@@ -36,8 +39,10 @@ public class TestInGame extends BaseTest {
         WebDriverRunner.setWebDriver(driver);
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(homeTab.getHomeTab()));
-        gamesTab.openGamesTab();
-        gamesTab.selectNBALeague();
+//        gamesTab.openGamesTab();
+        Helpers.tabs().openGamesTab();
+//        gamesTab.selectNBALeague();
+        Helpers.games().selectNBALeague();
     }
 
     @AfterMethod
@@ -47,10 +52,10 @@ public class TestInGame extends BaseTest {
 
     @Test
     public void assertScoreInLiveBlockAndLiveGame() {
-//        gamesTab.selectNBALeague();
-        String score = liveGameBlock.getScoreInBlockLiveGame();
-        liveGameBlock.enterToTheLiveGame();
-        assertEquals(score , liveGameHelper.getScoreInLiveGame());
+//        String score = liveGameBlock.getScoreInBlockLiveGame();
+//        liveGameBlock.enterToTheLiveGame();
+//        assertEquals(score , liveGameHelper.getScoreInLiveGame());
+        Helpers.liveGameBlock().assertScoreInLiveBlockAndLiveGame();
     }
 
     @Test
@@ -77,5 +82,12 @@ public class TestInGame extends BaseTest {
         betTeamHelper.doLeftTeamBet();
         betPlayerHelper.finishBet();
         assertTrue(userCoins - toolbarHelper.getUserCoins() == 20);
+    }
+
+    @Test
+    public void testApearenceBetInProfileHistory() {
+        toolbarHelper.clickOnProfileIcon();
+//        ToolbarHelper
+        drawerHelper.openProfile();
     }
 }
